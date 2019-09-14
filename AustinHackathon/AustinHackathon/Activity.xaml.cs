@@ -15,9 +15,10 @@ namespace AustinHackathon
         public Activity()
         {
             InitializeComponent();
-            var browser = new WebView();
-            browser.Source = "file:///android_asset/TestWebPage.html"; 
-            Content = browser;
+        }
+        private async void Back_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Dashboard());
         }
     }
 }

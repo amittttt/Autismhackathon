@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>D3JS test</title>
+    <link rel="stylesheet" href="./hawk.css">
+</head>
+<body>
+    <div class="graphs-container"></div>
+    <script src="./dependencies.js"></script>
+    <script src="./hawk.js"></script>
+    <script src="./fakedata.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var config = {};
+            config.desktop = true;
+            config.data = fakedata();
+            hawkGraphs(config);
+			/* //test sending new data to page and re-initializing the script
+			setTimeout(function(){
+				console.log('AGAIN');
+				config.data = fakedata();
+				hawkGraphs(config);
+			}, 5000);*/
+        });
+    </script>
+</body>
+</html>

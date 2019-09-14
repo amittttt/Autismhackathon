@@ -16,15 +16,18 @@ namespace AustinHackathon
         public MainPage()
         {
             InitializeComponent();
-           
+
         }
-        private async void NavigateButton_OnClicked(object sender, EventArgs e)
+        private async void LoginPageToDashboardUrl(object sender, WebNavigatingEventArgs e)
         {
-            await Navigation.PushAsync(new Dashboard());
-        }
-        private async void NewUser_OnClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new NewUser());
+            
+            if (e.Url.Contains("Dashboard"))
+            {
+                await Navigation.PushAsync(new Dashboard());
+            }   
+            else if (e.Url.Contains("NewUser")) {
+                await Navigation.PushAsync(new NewUser());
+            }
         }
     }
 }

@@ -16,5 +16,9 @@ namespace AustinHackathon
         {
             InitializeComponent();
         }
+        private async void Back_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }

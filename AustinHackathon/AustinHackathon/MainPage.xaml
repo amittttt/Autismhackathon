@@ -6,25 +6,15 @@
              mc:Ignorable="d"
              x:Class="AustinHackathon.MainPage"
              BackgroundColor="White"
-             Title="MeetAndGreet">
-
+             Title="MeetAndGreet"
+             NavigationPage.HasBackButton="False">
     <ContentPage.Content>
-        <StackLayout Spacing="2" x:Name="layout">
-            <BoxView Color="Yellow" VerticalOptions="FillAndExpand"
-        HorizontalOptions="FillAndExpand" />
-            <Entry x:Name="name" HorizontalOptions="CenterAndExpand" WidthRequest="300" Placeholder="  Enter your UserName"/>
-            <Entry x:Name="password" IsPassword="True" HorizontalOptions="CenterAndExpand" WidthRequest="300"  Placeholder="  Enter your Passwords"/>
-            <Button Text="Login"
-                VerticalOptions="StartAndExpand"
-                HorizontalOptions="CenterAndExpand" WidthRequest="300"
-                HeightRequest="50"
-                Clicked="NavigateButton_OnClicked"/>
-            <Button Text="New User"
-                VerticalOptions="StartAndExpand"
-                HorizontalOptions="CenterAndExpand" WidthRequest="300"
-                HeightRequest="50"
-                Clicked="NewUser_OnClicked"/>
-        </StackLayout>
-          
+        <WebView x:Name="webView" Navigating="LoginPageToDashboardUrl" Source="file:///android_asset/Login/index.html" WidthRequest="1000" HeightRequest="1000" />
     </ContentPage.Content>
+    <!--<StackLayout Spacing="0" Padding="0">
+        <ScrollView>
+            <WebView x:Name="Browser" Navigating="WebView_URL_history" VerticalOptions="FillAndExpand" HeightRequest="8000"/>
+        </ScrollView>
+    </StackLayout>-->
+
 </ContentPage>

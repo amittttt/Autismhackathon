@@ -15,3 +15,4 @@ C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\Austin
 C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\Dashboard.xaml.g.cs
 C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\NewUser.xaml.g.cs
 C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\Activity.xaml.g.cs
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\VideoPlayer.xaml.g.cs

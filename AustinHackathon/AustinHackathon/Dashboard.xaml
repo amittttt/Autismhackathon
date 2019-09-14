@@ -5,16 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"   
              x:Class="AustinHackathon.Dashboard"
-             Title="Dashboard">
+             Title="Dashboard"
+             NavigationPage.HasBackButton="False">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Activity" Clicked="Activity_OnClicked" />
+        <ToolbarItem Text="Back " Clicked="Back_OnClicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                />
-        </StackLayout>
+        <WebView x:Name="webView"  Navigating="DashboardToVideoDisplay" Source="file:///android_asset/Dashboard/index.html" WidthRequest="1000" HeightRequest="1000" />
     </ContentPage.Content>
+
 </ContentPage>

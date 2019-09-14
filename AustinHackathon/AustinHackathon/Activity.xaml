@@ -4,6 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AustinHackathon.Activity">
-
+             x:Class="AustinHackathon.Activity"
+             Title="Activity Tracker"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Back " Clicked="Back_OnClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <WebView x:Name="webView"  Source="file:///android_asset/Content/hawk.html" WidthRequest="1000" HeightRequest="1000" />
+    </ContentPage.Content>
 </ContentPage>

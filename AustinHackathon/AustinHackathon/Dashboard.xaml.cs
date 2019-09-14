@@ -20,5 +20,15 @@ namespace AustinHackathon
         {
             await Navigation.PushAsync(new Activity());
         }
+        private async void Back_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
+        private async void DashboardToVideoDisplay(object sender, WebNavigatingEventArgs e)
+        {
+            
+            //Store all url here (But UseLess ) --> GO back is also there
+            //https://stackoverflow.com/questions/34309138/xamarin-forms-making-webview-go-back   
+        }
     }
 }

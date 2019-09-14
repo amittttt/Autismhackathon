@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
+    <script>
+        // Ignore this in your implementation
+        window.isMbscDemo = true;
+    </script>
+
+    <title>Images</title>
+
+    <!-- Mobiscroll JS and CSS Includes -->
+    <link rel="stylesheet" href="css/mobiscroll.javascript.min.css">
+    <script src="js/mobiscroll.javascript.min.js"></script>
+
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .md-card-bg .md-card-subtitle,
+    .md-card-bg .md-card-title {
+        position: absolute;
+        top: 50%;
+        color: #fff;
+        width: 100%;
+    }
+    
+    .md-card-bg .md-card-title {
+        margin-top: -30px;
+    }
+    
+    .md-card-bg .md-card-subtitle {
+        margin-top: 10px;
+    }
+    </style>
+
+</head>
+<body>
+
+<div mbsc-page class="demo-images">
+    <div mbsc-card>
+        <img src="https://img.mobiscroll.com/demos/card_2.png">
+        <div class="mbsc-card-header">
+            <h2 class="mbsc-card-title">Best animal adventure</h2>
+        </div>
+        <div class="mbsc-card-content">
+            A young panda tests his climbing skills at the Chengdu Research Base.
+        </div>
+        <div class="mbsc-card-footer">
+            <button class="mbsc-btn-flat">Share</button>
+            <button class="mbsc-btn-flat">Explore</button>
+        </div>
+    </div>
+    
+    <div class="md-card-bg" mbsc-card>
+        <img src="https://img.mobiscroll.com/demos/card_6.png">
+        <h2 class="md-card-title mbsc-align-center">Las Vegas</h2>
+        <h5 class="md-card-subtitle mbsc-align-center mbsc-bold">63 apartments available</h5>
+    </div>
+    
+    <div mbsc-card>
+        <img class="mbsc-img-thumbnail mbsc-pull-right" width="90" height="90" src="https://img.mobiscroll.com/demos/card_3.png">
+        <div class="mbsc-card-header">
+            <div class="mbsc-card-title">Best places</div>
+        </div>
+        <div class="mbsc-card-content"> A view across the Turnagain Arm on Alaska's Kenai Peninsula.
+        </div>
+    </div>
+    
+    <div mbsc-card>
+        <div class="mbsc-card-header">
+            <h2 class="mbsc-card-title">15 minutes to work</h2>
+        </div>
+        <img src="https://img.mobiscroll.com/demos/route.png">
+        <div class="mbsc-card-content mbsc-btn-group-block">
+            <button class="mbsc-btn-flat mbsc-align-left" data-icon="ion-navigate">Navigate / 15 min. via Shotwell St</button>
+            <button class="mbsc-btn-flat mbsc-align-left" data-icon="fa-rotate-left">Alternative route / 18 mins</button>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    mobiscroll.settings = {
+        
+        lang: 'en',  // Specify language like: lang: 'pl' or omit setting to use default
+        theme: 'ios'           // Specify theme like: theme: 'ios' or omit setting to use default
+    }
+</script>
+
+</body>
+</html>
