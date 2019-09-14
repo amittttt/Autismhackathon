@@ -1,0 +1,17 @@
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\bin\Debug\netstandard2.0\AustinHackathon.deps.json
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\bin\Debug\netstandard2.0\AustinHackathon.dll
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\bin\Debug\netstandard2.0\ref\AustinHackathon.dll
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\bin\Debug\netstandard2.0\AustinHackathon.pdb
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\AustinHackathon.csprojAssemblyReference.cache
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\AustinHackathon.csproj.CoreCompileInputs.cache
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\AustinHackathon.AssemblyInfoInputs.cache
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\AustinHackathon.AssemblyInfo.cs
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\AustinHackathon.dll
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\ref\AustinHackathon.dll
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\AustinHackathon.pdb
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\Dashboard.xaml.g.cs
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\NewUser.xaml.g.cs
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon\obj\Debug\netstandard2.0\Activity.xaml.g.cs

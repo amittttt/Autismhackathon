@@ -1,0 +1,1 @@
+C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon.UWP\AustinHackathon.UWP.csproj;x86

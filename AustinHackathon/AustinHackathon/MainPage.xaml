@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AustinHackathon.MainPage"
+             BackgroundColor="White"
+             Title="MeetAndGreet">
+
+    <ContentPage.Content>
+        <StackLayout Spacing="2" x:Name="layout">
+            <BoxView Color="Yellow" VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="name" HorizontalOptions="CenterAndExpand" WidthRequest="300" Placeholder="  Enter your UserName"/>
+            <Entry x:Name="password" IsPassword="True" HorizontalOptions="CenterAndExpand" WidthRequest="300"  Placeholder="  Enter your Passwords"/>
+            <Button Text="Login"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand" WidthRequest="300"
+                HeightRequest="50"
+                Clicked="NavigateButton_OnClicked"/>
+            <Button Text="New User"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="CenterAndExpand" WidthRequest="300"
+                HeightRequest="50"
+                Clicked="NewUser_OnClicked"/>
+        </StackLayout>
+          
+    </ContentPage.Content>
+</ContentPage>
