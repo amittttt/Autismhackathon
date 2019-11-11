@@ -81,6 +81,159 @@
     <AndroidAsset Include="Assets\Login\vendor\bootstrap\css\bootstrap.min.css.map" />
     <AndroidAsset Include="Assets\Dashboard\css\icons_mobiscroll.ttf" />
     <AndroidAsset Include="Assets\Dashboard\css\icons_mobiscroll.woff" />
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap.css.map" />
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\animated.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\core.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\icons.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\larger.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\list.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\path.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\less\variables.less" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <AndroidAsset Include="Assets\NewUser\fonts\iconic\fonts\Material-Design-Iconic-Font.eot" />
+    <AndroidAsset Include="Assets\NewUser\fonts\iconic\fonts\Material-Design-Iconic-Font.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\iconic\fonts\Material-Design-Iconic-Font.woff" />
+    <AndroidAsset Include="Assets\NewUser\fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-Black.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-Bold.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-ExtraBold.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-ExtraLight.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-Italic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-Light.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-Medium.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-Regular.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-Thin.ttf" />
+    <AndroidAsset Include="Assets\NewUser\fonts\poppins\Poppins-ThinItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\._Login_v2" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\._css" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\._fonts" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\._images" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\._js" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\._vendor" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\._font-awesome-4.7.0" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\._iconic" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\._poppins" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\._css" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\._fonts" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\._less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\._scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\fonts\._fontawesome-webfont.eot" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\fonts\._fontawesome-webfont.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\fonts\._fontawesome-webfont.woff" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\fonts\._fontawesome-webfont.woff2" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\fonts\._FontAwesome.otf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._animated.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._bordered-pulled.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._core.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._fixed-width.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._font-awesome.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._icons.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._larger.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._list.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._mixins.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._path.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._rotated-flipped.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._screen-reader.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._stacked.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\less\._variables.less" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__animated.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__bordered-pulled.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__core.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__fixed-width.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__icons.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__larger.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__list.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__mixins.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__path.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__rotated-flipped.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__screen-reader.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__stacked.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\.__variables.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\scss\._font-awesome.scss" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\._css" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\._fonts" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\fonts\._Material-Design-Iconic-Font.eot" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\fonts\._Material-Design-Iconic-Font.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\fonts\._Material-Design-Iconic-Font.woff" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\fonts\._Material-Design-Iconic-Font.woff2" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-Black.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-Bold.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-ExtraBold.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-ExtraBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-ExtraLight.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-ExtraLightItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-Italic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-Light.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-Medium.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-Regular.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-SemiBoldItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-Thin.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\poppins\._Poppins-ThinItalic.ttf" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\images\._icons" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._animate" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._animsition" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._bootstrap" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._countdowntime" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._css-hamburgers" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._daterangepicker" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._jquery" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._perfect-scrollbar" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\._select2" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\animsition\._css" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\animsition\._js" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\._css" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\._js" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-grid.css.map" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-grid.min.css.map" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-reboot.css.map" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-reboot.min.css.map" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap.css.map" />
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap.min.css.map" />
+    <AndroidAsset Include="Assets\Jobs\css\icons_mobiscroll.ttf" />
+    <AndroidAsset Include="Assets\Jobs\css\icons_mobiscroll.woff" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -105,6 +258,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\Login\fonts\" />
+    <Folder Include="Assets\NewUser\fonts\images\" />
+    <Folder Include="Assets\NewUser\fonts\js\" />
+    <Folder Include="Assets\NewUser\fonts\vendor\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
     <Folder Include="Resources\drawable\" />
@@ -152,7 +308,7 @@
     <AndroidAsset Include="Assets\Login\index.html" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\Dashboard\index.html" />
+    <AndroidAsset Include="Assets\Dashboard\index1.html" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\NewUser\index.html" />
@@ -267,6 +423,300 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\Dashboard\js\mobiscroll.javascript.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Login\images\delllogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\delllogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\animate\animate.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\animsition\css\animsition.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\animsition\css\animsition.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\animsition\js\animsition.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\animsition\js\animsition.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-grid.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-grid.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-reboot.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\css\bootstrap.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\js\bootstrap.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\js\bootstrap.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\js\popper.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\js\popper.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\bootstrap\js\tooltip.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\countdowntime\countdowntime.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\css-hamburgers\hamburgers.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\css-hamburgers\hamburgers.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\daterangepicker\daterangepicker.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\daterangepicker\daterangepicker.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\daterangepicker\moment.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\daterangepicker\moment.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\jquery\jquery-3.2.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\select2\select2.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\select2\select2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\select2\select2.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\vendor\select2\select2.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\js\main.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\images\icons\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\delllogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\iconic\css\material-design-iconic-font.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\iconic\css\material-design-iconic-font.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\._index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\css\._main.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\css\._util.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\._HELP-US-OUT.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\css\._font-awesome.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\css\._font-awesome.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\font-awesome-4.7.0\fonts\._fontawesome-webfont.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\css\._material-design-iconic-font.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\css\._material-design-iconic-font.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\fonts\iconic\fonts\._Material-Design-Iconic-Font.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\images\icons\._favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\js\._main.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\animate\._animate.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\animsition\css\._animsition.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\animsition\css\._animsition.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\animsition\js\._animsition.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\animsition\js\._animsition.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-grid.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-grid.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-reboot.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap-reboot.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\css\._bootstrap.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\js\._bootstrap.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\js\._bootstrap.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\js\._popper.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\js\._popper.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\bootstrap\js\._tooltip.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\countdowntime\._countdowntime.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\css-hamburgers\._hamburgers.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\css-hamburgers\._hamburgers.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\daterangepicker\._daterangepicker.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\daterangepicker\._daterangepicker.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\daterangepicker\._moment.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\daterangepicker\._moment.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\jquery\._jquery-3.2.1.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\perfect-scrollbar\._perfect-scrollbar.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\perfect-scrollbar\._perfect-scrollbar.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\select2\._select2.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\select2\._select2.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\select2\._select2.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\__MACOSX\Login_v2\vendor\select2\._select2.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\css\main.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\NewUser\css\util.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Dashboard\Image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Dashboard\Image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Dashboard\Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Dashboard\Image4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Jobs\Image1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Jobs\Image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Jobs\Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Jobs\Image4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Jobs\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Jobs\css\mobiscroll.javascript.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Jobs\js\mobiscroll.javascript.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Dashboard\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

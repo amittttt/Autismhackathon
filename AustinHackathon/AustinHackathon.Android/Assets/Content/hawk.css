@@ -80,7 +80,7 @@ body {
 
 .filters {
     clear: both;
-    display: block;
+    display: none;
     float: left;
     width: 100%;
     border-bottom: 12px #EEEEEE solid;

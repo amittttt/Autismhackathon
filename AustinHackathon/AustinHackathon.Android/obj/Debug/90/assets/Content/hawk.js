@@ -16,7 +16,7 @@ var hawkGraphs = function (x) {
         num = Math.abs(num);
         if (num >= 1000000000) {
             normalizedNumber = (num / 1000000000);
-            numberSuffix = "B";            
+            numberSuffix = "B";
         } else if (num >= 1000000) {
             normalizedNumber = (num / 1000000);
             numberSuffix = "M";
@@ -969,7 +969,7 @@ var hawkGraphs = function (x) {
         //setup
         hawk.data[index].config.html = '<div class="graph-title-gt14">' + hawk.data[index].GraphTitle + '</div>' +
             '<svg class="graph"></svg>' +
-            '<div class="graph-number-gt14" style="color:'+hawk.data[index].Color + '">' + hawk.data[index].GraphNumber + '</div>';
+            '<div class="graph-number-gt14" style="color:' + hawk.data[index].Color + '">' + hawk.data[index].GraphNumber + '</div>';
         $('.graph' + index).addClass('gt14').html(hawk.data[index].config.html).width(hawk.svgWidth);
         hawk.data[index].config.graphHeight = 40;
         hawk.data[index].config.graphWidth = (hawk.svgWidth - 90);
@@ -1117,8 +1117,8 @@ var hawkGraphs = function (x) {
         //setup
         hawk.data[index].config.html = '<div class="graph-title graph-title-short">' + hawk.data[index].GraphTitle + '</div>' +
             '<div class="graph-status">' +
-            '<div class="graph-status-value" style="color:' + GraphFontColor + '">' + hawk.data[index].GraphNumber + '</div>' +
-            '<div class="graph-status-label">Customers Impacted</div></div>' +
+            '<div class="graph-status-value" style="display:none;color:' + GraphFontColor + '">' + hawk.data[index].GraphNumber + '</div>' +
+            '<div class="graph-status-label" style="display:none">Customers Impacted</div></div>' +
             '<svg class="graph"></svg>' +
             '<div class="graph-legend"></div>';
         $('.graph' + index).html(hawk.data[index].config.html).width(hawk.svgWidth);
@@ -1382,7 +1382,7 @@ var hawkGraphs = function (x) {
             }
             html += '<div class="graph-legend-element"><div class="graph-legend-element-color graph-legend-element-color-2xx"></div><div class="graph-legend-element-label">2XX</div></div>';
         } else if (hawk.data[index].GraphType === 2) {
-            html = '<div class="graph-legend-element"><div class="graph-legend-element-color" style="background:' + hawk.data[index].GraphColor + '"></div><div class="graph-legend-element-label">Errors</div></div>';
+            html = '<div class="graph-legend-element"><div class="graph-legend-element-color" style="display:none;background:' + hawk.data[index].GraphColor + '"></div><div style="display:none;" class="graph-legend-element-label">Errors</div></div>';
         } else if (hawk.data[index].GraphType === 3) {
             for (var i = 0; i < hawk.data[index].GraphLegend.length; i++) {
                 html += '<div class="graph-legend-element"><div class="graph-legend-element-color graph-legend-element-line" style="background:' + hawk.colors[i] + '"></div>' +

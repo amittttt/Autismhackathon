@@ -2190,24 +2190,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amit_mishra6\\.nuget\\packages\\": {},
+    "C:\\Users\\Amit_Mishra6\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon.Android\\AustinHackathon.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon.Android\\AustinHackathon.Android.csproj",
       "projectName": "AustinHackathon.Android",
-      "projectPath": "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon.Android\\AustinHackathon.Android.csproj",
-      "packagesPath": "C:\\Users\\amit_mishra6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon.Android\\obj\\",
+      "projectPath": "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon.Android\\AustinHackathon.Android.csproj",
+      "packagesPath": "C:\\Users\\Amit_Mishra6\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\amit_mishra6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amit_Mishra6\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2221,8 +2221,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj": {
-              "projectPath": "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj"
+            "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj": {
+              "projectPath": "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj"
             }
           }
         }

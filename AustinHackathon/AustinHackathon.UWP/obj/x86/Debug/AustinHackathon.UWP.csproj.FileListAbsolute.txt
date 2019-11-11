@@ -317,3 +317,5 @@ C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\Austin
 C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon.UWP\bin\x86\Debug\Syncfusion.SfListView.XForms.UWP.dll
 C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon.UWP\bin\x86\Debug\Syncfusion.SfListView.XForms.dll
 C:\Users\amit_mishra6\Desktop\CodeSnippet\AustinHackathon\AustinHackathon\AustinHackathon.UWP\obj\x86\Debug\Syncfusion.Core.XForms.UWP.pri.xml
+C:\Users\Amit_Mishra6\Desktop\GitLab\AustinHackathon\AustinHackathon\AustinHackathon.UWP\obj\x86\Debug\AustinHackathon.UWP.exe
+C:\Users\Amit_Mishra6\Desktop\GitLab\AustinHackathon\AustinHackathon\AustinHackathon.UWP\obj\x86\Debug\AustinHackathon.UWP.pdb

@@ -10,12 +10,8 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Back " Clicked="Back_OnClicked" />
     </ContentPage.ToolbarItems>
-    
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="New User Page Add Forms Here!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+    <ContentPage.Content>   
+        <WebView x:Name="webView" Source="file:///android_asset/NewUser/index.html" WidthRequest="1000" HeightRequest="1000" />
     </ContentPage.Content>
 </ContentPage>

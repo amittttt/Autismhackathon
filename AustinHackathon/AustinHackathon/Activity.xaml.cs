@@ -20,5 +20,9 @@ namespace AustinHackathon
         {
             await Navigation.PushAsync(new Dashboard());
         }
+        private async void job_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Jobs());
+        }
     }
 }

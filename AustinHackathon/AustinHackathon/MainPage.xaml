@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="AustinHackathon.MainPage"
              BackgroundColor="White"
-             Title="MeetAndGreet"
+             Title="MeetNGreet"
              NavigationPage.HasBackButton="False">
     <ContentPage.Content>
         <WebView x:Name="webView" Navigating="LoginPageToDashboardUrl" Source="file:///android_asset/Login/index.html" WidthRequest="1000" HeightRequest="1000" />

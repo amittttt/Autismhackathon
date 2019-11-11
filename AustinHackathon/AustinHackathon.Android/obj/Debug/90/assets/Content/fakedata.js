@@ -13,7 +13,7 @@ var fakedata = function () {
      * Add 1 minute to given datetime, for fake data.
      * @return {DATE} date
      */
-    fd.addMinutes = function (date, minutes = 1) {
+    fd.addMinutes = function (date, minutes = 10) {
         return new Date(date.getTime() + minutes * 60000);
     };
     /*
@@ -24,48 +24,23 @@ var fakedata = function () {
         var data = {},
             options = {
                 countries: ['us', 'ca'],
-                pieLabels: ['CreditCard', 'DellPreferredAccountNew', 'DellAdvantageRewards', 'PayPal', 'DellBusinessCreditPayCodeNewUpper', 'GiftCard'],
-                pieColors: ['#65A637','#F7BC38', '#D93F3C', '#6E2585', '#EE6411', '#B7295A', '#0076CE', '#6EA204', '#F2AF00', '#41B6E6', '#CE1126', '#00447C', '#444444'],
+                pieLabels: ['Completed', 'Need to Learn',],
+                pieColors: ['#65A637', '#F7BC38'],
                 funnelLabels: ['Landing', 'Shipping', 'Payments', 'Review', 'Thank You', 'Something Else'],
                 salesTableLabels: ['All Order Submissions', 'Orders on Fraud Hold', 'Confirmed Fraud Orders', 'Other Cancellations', 'Net Order Submissions'],
-                speedTableLabels: ['Product Details asdhfkwjhe afslfj', 'Category aw98f98423hta asld ashfwlwe', 'Deals asldkf asldfe awfrwur asldflwe asdlhfw asdf3wh4 asdhfwhf awehii34']
+                speedTableLabels: ['Total Growth']
             },
             now = new Date();
         now = fd.addMinutes(now, -45);
-        if (type === 1) {
-            data.GraphType = 1;
-            data.GraphTitle = 'P20';
-            data.GraphTitleLabel = '';
-            data.GraphY1AxisLabel = 'hits';
-            data.GraphY2AxisLabel = 'ms';
-            data.GraphNumber = 50;
-            data.GraphNumberLabel = '90<sup>th</sup>% ms';
-            data.GraphLink = 'http://google.com';
-			data.Interactive = 1;
-            data.FiltersApplied = -1;
-            data.Results = [];
-            data.Results[0] = { SubResults: [] };
-            for (var i = 0; i < 30; i++) {
-                now = fd.addMinutes(now);
-                data.Results[0].SubResults.push({
-                    Timestamp: now.toString(),
-                    Line1Value: fd.getRandomInt(100, 2000),
-                    StackedBar1Value: fd.getRandomInt(100, 5000),
-                    StackedBar2Value: fd.getRandomInt(100, 5000),
-                    StackedBar3Value: fd.getRandomInt(100, 5000),
-                    StackedBar4Value: fd.getRandomInt(100, 5000)
-                });
-                data.Results[0].SubResults[i].StackedBarTotal = (data.Results[0].SubResults[i].StackedBar1Value + data.Results[0].SubResults[i].StackedBar2Value + data.Results[0].SubResults[i].StackedBar3Value + data.Results[0].SubResults[i].StackedBar4Value);
-            }
-        } else if (type === 2) {
+        if (type === 2) {
             data.GraphType = 2;
             //data.GraphLink = 'http://google.com';
-            data.GraphLink = 'file:///android_asset/Login/index.html';
-            data.GraphColor = '#CE1126'
-            data.GraphTitle = 'Accessories failure';
-            data.GraphNumber = 27;
-            data.GraphY1AxisLabel = 'errors';
-			data.Interactive = 0;
+            //data.GraphLink = 'file:///android_asset/Login/index.html';
+            data.GraphColor = 'green'
+            data.GraphTitle = 'Activity';
+            data.GraphNumber = 227;
+            data.GraphY1AxisLabel = 'Time';
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [];
             data.Results[0] = { SubResults: [] };
@@ -73,7 +48,7 @@ var fakedata = function () {
                 now = fd.addMinutes(now);
                 data.Results[0].SubResults.push({
                     Timestamp: now.toString(),
-                    BarGraphValue: fd.getRandomInt(0, 100)
+                    BarGraphValue: fd.getRandomInt(0, 10)
                 });
             }
         } else if (type === 3) {
@@ -81,7 +56,7 @@ var fakedata = function () {
             data.GraphTitle = 'multi line example';
             data.GraphY1AxisLabel = 'units';
             data.GraphLegend = ['something', 'another', 'blah', 'yes'];
-			data.Interactive = 2;
+            data.Interactive = 2;
             data.FiltersApplied = -1;
             data.Results = [];
             data.Results[0] = { SubResults: [] };
@@ -95,12 +70,12 @@ var fakedata = function () {
                     Line4Value: fd.getRandomInt(60, 100)
                 });
             }
-		} else if (type === 30) {
+        } else if (type === 30) {
             data.GraphType = 3;
             data.GraphTitle = 'line example';
             data.GraphY1AxisLabel = 'units';
             data.GraphLegend = ['eagles sold'];
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.Results = [];
             data.Results[0] = { SubResults: [] };
             for (var i = 0; i < 24; i++) {
@@ -112,8 +87,8 @@ var fakedata = function () {
             }
         } else if (type === 4) {
             data.GraphType = 4;
-            data.GraphTitle = 'Payment Mix';
-			data.Interactive = 0;
+            data.GraphTitle = 'Course Update';
+            data.Interactive = 0;
             data.FiltersApplied = 1;
             data.Results = [];
             for (var a = 0; a < options.countries.length; a++) {
@@ -125,7 +100,7 @@ var fakedata = function () {
         } else if (type === 5) {
             data.GraphType = 5;
             data.GraphTitle = 'Cart To Checkout Funnel';
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = 3;
             data.Results = [
                 {
@@ -289,9 +264,9 @@ var fakedata = function () {
             data.GraphType = 5;
             data.GraphTitle = 'SubmittedPODetails to OGInfoCollectorCount Funnel';
             data.FiltersApplied = 4;
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.Results = [
-				{
+                {
                     "Country": null,
                     "Segment": 0,
                     "Region": "xx",
@@ -323,7 +298,7 @@ var fakedata = function () {
                         }
                     ]
                 },
-				{
+                {
                     "Country": null,
                     "Segment": 0,
                     "Region": "All",
@@ -519,7 +494,7 @@ var fakedata = function () {
         } else if (type === 6) {
             data.GraphType = 6;
             data.GraphTitle = 'Sales';
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = 3;
             data.Results = [];
             for (var a = 0; a < options.countries.length; a++) {
@@ -538,7 +513,7 @@ var fakedata = function () {
         } else if (type === 7) {
             data.GraphType = 7;
             data.GraphTitle = "Revenue By Hour";
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = 3;
             data.Results = [
                 {
@@ -669,7 +644,7 @@ var fakedata = function () {
             data.GraphType = 9;
             data.GraphTitle = 'CPU Usage';
             data.GraphHeaders = ['P20', 'P21', 'P60', 'P61'];
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [
                 {
@@ -708,7 +683,7 @@ var fakedata = function () {
         } else if (type === 10) {
             data.GraphType = 10;
             data.GraphTitle = 'Shop failure - Errors by URL';
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [
                 {
@@ -739,7 +714,7 @@ var fakedata = function () {
         } else if (type === 100) {
             data.GraphType = 10;
             data.GraphTitle = 'Shop failure - Errors by Error Type';
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [
                 {
@@ -777,7 +752,7 @@ var fakedata = function () {
             ];
         } else if (type === 11) {
             data.GraphType = 11;
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [];
             for (var a = 0; a < options.countries.length; a++) {
@@ -798,7 +773,7 @@ var fakedata = function () {
             data.GraphType = 12;
             data.GraphTitle = 'By Error Type';
             data.GraphHeaders = ['Error Type', 'Count'];
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [];
             data.Results.push({ SubResults: [] });
@@ -811,13 +786,13 @@ var fakedata = function () {
         } else if (type === 13) {
             data.GraphType = 13;
             data.GraphTitle = 'multi color line example';
-			data.GraphLegend = ['<20', '20-50', '50-70', '70-100'];
-			data.Interactive = 0;
+            data.GraphLegend = ['<20', '20-50', '50-70', '70-100'];
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.GraphColorRanges = [
                 { Offset: "0%", Color: "#CE1126" },
                 { Offset: "30%", Color: "#CE1126" },
-				{ Offset: "30%", Color: "#00FFFF" },
+                { Offset: "30%", Color: "#00FFFF" },
                 { Offset: "50%", Color: "#00FFFF" },
                 { Offset: "50%", Color: "#F2AF00" },
                 { Offset: "80%", Color: "#F2AF00" },
@@ -831,14 +806,14 @@ var fakedata = function () {
                 data.Results[0].SubResults.push({
                     Timestamp: now.toString(),
                     Line1Value: fd.getRandomInt(0, 5000),
-					Line1Percentage: fd.getRandomInt(0, 100)
+                    Line1Percentage: fd.getRandomInt(0, 100)
                 });
             }
         } else if (type === 14) {
             data.GraphType = 14;
             data.GraphTitle = options.speedTableLabels[fd.getRandomInt(0, (options.speedTableLabels.length - 1))];
             data.GraphNumber = fd.getRandomInt(0, 5000);
-	    data.Color = "#CE1126" ;
+            data.Color = "#CE1126";
             data.GraphColorRanges = [
                 { Offset: "0%", Color: "#CE1126" },
                 { Offset: "80%", Color: "#CE1126" },
@@ -847,7 +822,7 @@ var fakedata = function () {
                 { Offset: "90%", Color: "#6EA204" },
                 { Offset: "100%", Color: "#6EA204" }
             ];
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [];
             data.Results[0] = { SubResults: [] };
@@ -862,7 +837,7 @@ var fakedata = function () {
             data.GraphType = 14;
             data.GraphTitle = options.speedTableLabels[fd.getRandomInt(0, (options.speedTableLabels.length - 1))];
             data.GraphNumber = fd.getRandomInt(0, 5000);
-	    data.Color = "#CE1126" ;
+            data.Color = "#CE1126";
             data.GraphColorRanges = [
                 { Offset: "0%", Color: "#CE1126" },
                 { Offset: "80%", Color: "#CE1126" },
@@ -871,7 +846,7 @@ var fakedata = function () {
                 { Offset: "90%", Color: "#6EA204" },
                 { Offset: "100%", Color: "#6EA204" }
             ];
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.Results = [];
             data.Results[0] = { SubResults: [] };
             for (var i = 0; i < 24; i++) {
@@ -881,10 +856,10 @@ var fakedata = function () {
                     Line1Value: fd.getRandomInt(70, 100)
                 });
             }
-        }else if (type === 15) {
+        } else if (type === 15) {
             data.GraphType = 15;
             data.GraphTitle = 'Comments';
-			data.Interactive = 0;
+            data.Interactive = 0;
             data.FiltersApplied = -1;
             data.Results = [
                 {
@@ -897,14 +872,14 @@ var fakedata = function () {
                             Message: 'I had problems with bug.'
                         },
                         {
-							Rating: fd.getRandomInt(1, 10),
+                            Rating: fd.getRandomInt(1, 10),
                             Segment: fd.getRandomInt(0, 1),
                             Country: 'US',
                             Time: '09:21:49',
                             Message: 'I had problems with order.'
                         },
                         {
-							Rating: fd.getRandomInt(1, 10),
+                            Rating: fd.getRandomInt(1, 10),
                             Segment: fd.getRandomInt(0, 1),
                             Country: 'US',
                             Time: '09:21:49',
@@ -920,26 +895,10 @@ var fakedata = function () {
      * Initialize script
      */
     fd.dataBlock = [];
-	fd.dataBlock.push(fd.generateFakeData(1));
     fd.dataBlock.push(fd.generateFakeData(2));
-	fd.dataBlock.push(fd.generateFakeData(3));
+    fd.dataBlock.push(fd.generateFakeData(3));
     fd.dataBlock.push(fd.generateFakeData(4));
-    fd.dataBlock.push(fd.generateFakeData(5));
-    fd.dataBlock.push(fd.generateFakeData(6));
-    fd.dataBlock.push(fd.generateFakeData(7));
-    fd.dataBlock.push(fd.generateFakeData(9));
-    fd.dataBlock.push(fd.generateFakeData(10));
-    fd.dataBlock.push(fd.generateFakeData(100));
-    fd.dataBlock.push(fd.generateFakeData(11));
-    fd.dataBlock.push(fd.generateFakeData(12));
-    fd.dataBlock.push(fd.generateFakeData(13));
     fd.dataBlock.push(fd.generateFakeData(14));
-    fd.dataBlock.push(fd.generateFakeData(14));
-    fd.dataBlock.push(fd.generateFakeData(14));
-    fd.dataBlock.push(fd.generateFakeData(14));
-    fd.dataBlock.push(fd.generateFakeData(50));
-	fd.dataBlock.push(fd.generateFakeData(15));
-    console.log('fake data generator. dataset=');
     console.log(fd.dataBlock);
     return fd.dataBlock;
 };

@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj": {}
+    "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj": {
+    "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj",
+        "projectUniqueName": "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj",
         "projectName": "AustinHackathon",
-        "projectPath": "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj",
-        "packagesPath": "C:\\Users\\amit_mishra6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amit_mishra6\\Desktop\\CodeSnippet\\AustinHackathon\\AustinHackathon\\AustinHackathon\\obj\\",
+        "projectPath": "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon\\AustinHackathon.csproj",
+        "packagesPath": "C:\\Users\\Amit_Mishra6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amit_Mishra6\\Desktop\\GitLab\\AustinHackathon\\AustinHackathon\\AustinHackathon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\amit_mishra6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amit_Mishra6\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -53,10 +52,6 @@
               "target": "Package",
               "version": "[17.2.0.51, )"
             },
-            "Xamarin.Android.Support.v7.RecyclerView": {
-              "target": "Package",
-              "version": "[28.0.0.1, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.1.0, )"
@@ -67,10 +62,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

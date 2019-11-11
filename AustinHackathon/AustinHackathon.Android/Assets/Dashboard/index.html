@@ -1,96 +1,194 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    
-    <script>
-        // Ignore this in your implementation
-        window.isMbscDemo = true;
-    </script>
+    <style>
+        /* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
-    <title>Images</title>
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-    <!-- Mobiscroll JS and CSS Includes -->
-    <link rel="stylesheet" href="css/mobiscroll.javascript.min.css">
-    <script src="js/mobiscroll.javascript.min.js"></script>
+html {
+  background-color: #ecf9ff;
+}
 
-    <style type="text/css">
-    body {
-        margin: 0;
-        padding: 0;
-    }
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
 
-    .md-card-bg .md-card-subtitle,
-    .md-card-bg .md-card-title {
-        position: absolute;
-        top: 50%;
-        color: #fff;
-        width: 100%;
-    }
-    
-    .md-card-bg .md-card-title {
-        margin-top: -30px;
-    }
-    
-    .md-card-bg .md-card-subtitle {
-        margin-top: 10px;
-    }
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
     </style>
-
-</head>
-<body>
-
-<div mbsc-page class="demo-images">
-    <div mbsc-card>
-        <img src="https://img.mobiscroll.com/demos/card_2.png">
-        <div class="mbsc-card-header">
-            <h2 class="mbsc-card-title">Best animal adventure</h2>
-        </div>
-        <div class="mbsc-card-content">
-            A young panda tests his climbing skills at the Chengdu Research Base.
-        </div>
-        <div class="mbsc-card-footer">
-            <button class="mbsc-btn-flat">Share</button>
-            <button class="mbsc-btn-flat">Explore</button>
-        </div>
-    </div>
-    
-    <div class="md-card-bg" mbsc-card>
-        <img src="https://img.mobiscroll.com/demos/card_6.png">
-        <h2 class="md-card-title mbsc-align-center">Las Vegas</h2>
-        <h5 class="md-card-subtitle mbsc-align-center mbsc-bold">63 apartments available</h5>
-    </div>
-    
-    <div mbsc-card>
-        <img class="mbsc-img-thumbnail mbsc-pull-right" width="90" height="90" src="https://img.mobiscroll.com/demos/card_3.png">
-        <div class="mbsc-card-header">
-            <div class="mbsc-card-title">Best places</div>
-        </div>
-        <div class="mbsc-card-content"> A view across the Turnagain Arm on Alaska's Kenai Peninsula.
-        </div>
-    </div>
-    
-    <div mbsc-card>
-        <div class="mbsc-card-header">
-            <h2 class="mbsc-card-title">15 minutes to work</h2>
-        </div>
-        <img src="https://img.mobiscroll.com/demos/route.png">
-        <div class="mbsc-card-content mbsc-btn-group-block">
-            <button class="mbsc-btn-flat mbsc-align-left" data-icon="ion-navigate">Navigate / 15 min. via Shotwell St</button>
-            <button class="mbsc-btn-flat mbsc-align-left" data-icon="fa-rotate-left">Alternative route / 18 mins</button>
-        </div>
-    </div>
-</div>
-
-<script>
-
-    mobiscroll.settings = {
-        
-        lang: 'en',  // Specify language like: lang: 'pl' or omit setting to use default
-        theme: 'ios'           // Specify theme like: theme: 'ios' or omit setting to use default
-    }
-</script>
-
-</body>
+    <body>
+            <div class="main">
+                    <h1>Responsive Card Grid Layout</h1>
+                    <ul class="cards">
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="Image1.jpg"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                          <div class="card_content">
+                            <h2 class="card_title">Card Grid Layout</h2>
+                            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                            <button class="btn card_btn">Read More</button>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+    </body>
 </html>
+
+
+  
+  <h3 class="made_by">Made with ♡</h3>

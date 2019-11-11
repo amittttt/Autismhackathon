@@ -8,6 +8,7 @@
              Title="Activity Tracker"
              NavigationPage.HasBackButton="False">
     <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Jobs" Clicked="job_OnClicked"/>
         <ToolbarItem Text="Back " Clicked="Back_OnClicked" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
