@@ -53,7 +53,7 @@ var fakedata = function () {
             }
         } else if (type === 3) {
             data.GraphType = 3;
-            data.GraphTitle = 'multi line example';
+            data.GraphTitle = 'Daily Progress';
             data.GraphY1AxisLabel = 'units';
             data.GraphLegend = ['something', 'another', 'blah', 'yes'];
             data.Interactive = 2;
